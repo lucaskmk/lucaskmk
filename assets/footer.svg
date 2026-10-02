@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" aria-hidden="true">
+  <defs><clipPath id="round"><rect width="1200" height="150" rx="18"/></clipPath></defs>
+  <g clip-path="url(#round)">
+  <g><g><g transform="translate(0 67.5) scale(0.8333333333333334 0.515625)"><path d="M0,60 C480,140 960,0 1440,60 C1920,140 2400,0 2880,60 L2880,160 L0,160 Z" fill="rgba(18,25,42,0.92)"/></g><animateTransform attributeName="transform" type="translate" from="0 0" to="-1200 0" dur="36s" repeatCount="indefinite"/></g></g>
+  <g><g><g transform="translate(0 90) scale(0.8333333333333334 0.375)"><path d="M0,80 C360,10 1080,150 1440,80 C1800,10 2520,150 2880,80 L2880,160 L0,160 Z" fill="rgba(26,34,55,0.85)"/></g><animateTransform attributeName="transform" type="translate" from="0 0" to="-1200 0" dur="24s" repeatCount="indefinite"/></g></g>
+  <g><g><g transform="translate(0 108) scale(0.8333333333333334 0.26250000000000007)"><path d="M0,90 C240,20 720,160 1440,90 C1680,20 2160,160 2880,90 L2880,160 L0,160 Z" fill="rgba(34,46,72,0.78)"/></g><animateTransform attributeName="transform" type="translate" from="0 0" to="-1200 0" dur="16s" repeatCount="indefinite"/></g></g>
+  </g>
+</svg>

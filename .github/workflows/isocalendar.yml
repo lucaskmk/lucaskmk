@@ -1,0 +1,29 @@
+name: Profile cards
+
+on:
+  schedule:
+    - cron: "0 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  draw:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node .github/scripts/isocalendar.mjs ${{ github.repository_owner }} assets/isocalendar-card.svg
+      - run: node .github/scripts/about.mjs assets/about-v4.svg
+        env:
+          BIRTHDATE: ${{ secrets.BIRTHDATE }}
+      - name: Commit if changed
+        run: |
+          git config user.name "lucaskmk"
+          git config user.email "54600289+lucaskmk@users.noreply.github.com"
+          git add assets/isocalendar-card.svg assets/about-v4.svg
+          git diff --cached --quiet || (git commit -m "Update profile cards" && git push)
