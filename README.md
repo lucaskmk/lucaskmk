@@ -34,10 +34,7 @@
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lucaskmk/lucaskmk/output/github-snake-dark.svg" />
-    <img src="https://raw.githubusercontent.com/lucaskmk/lucaskmk/output/github-snake.svg" alt="Snake eating my contribution graph" />
-  </picture>
+  <img src="https://raw.githubusercontent.com/lucaskmk/lucaskmk/output/github-snake-dark.svg" alt="Snake eating my contribution graph" />
 </p>
 
 <p align="center">

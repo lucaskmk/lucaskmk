@@ -15,13 +15,16 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
+      - uses: actions/checkout@v4
+
       - uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          # Colors follow the portfolio palette (navy waves)
+          # One dark version for every theme: the other cards are dark too (navy palette)
           outputs: |
-            dist/github-snake.svg?palette=github-light&color_snake=#2f4a78&color_dots=#ebedf0,#c6d4ea,#7a9cc6,#5b7db1,#2f4a78
             dist/github-snake-dark.svg?palette=github-dark&color_snake=#7a9cc6&color_dots=#161b22,#1a2237,#2f4a78,#5b7db1,#7a9cc6
+
+      - run: node .github/scripts/snake-bg.mjs dist/github-snake-dark.svg
 
       - uses: crazy-max/ghaction-github-pages@v4
         with:
