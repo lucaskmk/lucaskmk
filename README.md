@@ -11,8 +11,6 @@
   <a href="https://www.linkedin.com/in/lucas-kenji-malheiros-kamikawa-28417629a"><img src="https://img.shields.io/badge/LinkedIn-1a2237?style=flat-square" alt="LinkedIn" /></a>
   <a href="mailto:lucaskamikawa@gmail.com"><img src="https://img.shields.io/badge/Email-1a2237?style=flat-square" alt="Email" /></a>
   <a href="https://lucaskmk.github.io/cv/Lucas_Kamikawa_CV_EN.pdf"><img src="https://img.shields.io/badge/Download_CV-1a2237?style=flat-square" alt="Download CV" /></a>
-  <a href="https://persona-social-link-navigator.vercel.app/"><img src="https://img.shields.io/badge/Persona_Navigator-1a2237?style=flat-square" alt="Persona Navigator" /></a>
-  <a href="https://media-cleaner.vercel.app/"><img src="https://img.shields.io/badge/Media_Cleaner-1a2237?style=flat-square" alt="Media Cleaner" /></a>
   <img src="https://komarev.com/ghpvc/?username=lucaskmk&label=Profile%20views&color=2f4a78&style=flat-square" alt="Profile views" />
 </p>
 
