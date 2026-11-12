@@ -16,8 +16,6 @@
   <img src="https://komarev.com/ghpvc/?username=lucaskmk&label=Profile%20views&color=2f4a78&style=flat-square" alt="Profile views" />
 </p>
 
-<p align="center"><img src="assets/stats.svg" width="100%" alt="20 projects, 12 certificates, 7 areas and an internship at Neria Energia" /></p>
-
 <p align="center"><img src="assets/divider-v2.svg" width="100%" alt="" /></p>
 
 <img src="assets/section-activity.svg" width="100%" alt="Activity" />
@@ -33,17 +31,6 @@
 <p align="center">
   <img src="assets/toolbox-v2.svg" width="100%" alt="Toolbox" />
 </p>
-
-<img src="assets/section-projects.svg" width="100%" alt="Projects" />
-
-| Project | What it does |
-|---|---|
-| **[Financial RAG](https://github.com/lucaskmk/Financial-RAG)** | RAG pipeline for questions over financial documents, with a local LLM |
-| **[CloudPay](https://github.com/lucaskmk/ComputacaoNuvem_Projeto)** | 100% serverless payments on AWS, load-tested with 100 concurrent users |
-| **[Endpoint Investigator](https://github.com/lucaskmk/ai-grupo6-endpoint-investigator)** | Linux endpoint forensics: processes, services and logs turned into findings |
-| **[Triage System](https://github.com/lucaskmk/Sistema-de-Triagem-para-Diagn-stico-de-Redes-Organizacionais)** | Graph analysis that finds bottlenecks in an organization's network |
-| **[Ollama AI Agent](https://github.com/lucaskmk/Ollama_AI-AgentDemo)** | Local AI agent with tool use, self-correction and memory |
-| **[MPU6050 Driver](https://github.com/lucaskmk/ExpertFirmware_Driver)** | C driver for an accelerometer and gyroscope over I2C, on an RTOS |
 
 <p align="center"><img src="assets/divider-v2.svg" width="100%" alt="" /></p>
 
